@@ -18,10 +18,11 @@ h1 {
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
-    background-color: rgb(188, 107, 255);
+    background: linear-gradient(50deg, #5d0056,  #e99bff,  #7d0064);
     text-align: center;
     padding: 20px;
     font-weight: bolder;
+    
 }
 
 button {
@@ -42,6 +43,14 @@ div{
 button{
     text-align: center;
 }
+
+body{
+    background: linear-gradient(200deg, #cecece, #878787);
+}
+
+
+
+
 
 
 
