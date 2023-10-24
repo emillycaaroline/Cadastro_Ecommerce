@@ -1,0 +1,47 @@
+body {
+    display: block;
+    font-size: larger;
+}
+
+::placeholder{
+    text-align: left;
+}
+
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    padding-right: 1%;
+    
+}
+
+h1 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    background-color: rgb(188, 107, 255);
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: grey;
+}
+
+input{
+    padding: 9px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+div{
+    margin-left: 20px; 
+    margin-right: 20px;
+}
+button{
+    text-align: center;
+}
+
+
+
