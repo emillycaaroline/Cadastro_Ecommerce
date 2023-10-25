@@ -39,6 +39,8 @@ const preencherformulario = (endereco) =>{
 }
 
 
+
+
 function Verificar(){
 
     let nome = document.getElementById('NOME').value;
@@ -54,13 +56,31 @@ function Verificar(){
     let bairro = document.getElementById('BAIRRO').value;
     let cidade = document.getElementById('CIDADE');
     let estado = document.getElementById('ESTADO');
+   
+     if(!nome || !telefone)
+     alert("Campos de preenchimento obrigatório. Favor preencher.")
 
+     if(!senha || !endereco)
+     alert("Campos de preenchimento obrigatório. Favor preencher.")
+
+     if(!cpf || !data)
+     alert("Campos de preenchimento obrigatório. Favor preencher.")
+
+     if(!telefone || !nome)
+     alert("Campos de preenchimento obrigatório. Favor preencher.")
+
+     if(!number || !bairro)
+     alert("Campo de preenchimento obrigatório. favor preencher")
+
+     if(!email || !confsenha)
+     alert("campo de preenchimento obrigaório. favor preencher")
+
+     if(!cep || !complemento)
+     alert("campo de preenchimento obrigaório. favor preencher")
+
+     if(!cidade || !estado)
+     alert("campo de preenchimento obrigaório. favor preencher")
+
+    }
 
    
-    if(!nome || !senha || !endereco || !cpf || !data || !telefone || number || !bairro || !cep || !complemento || !cidade || !estado || !email || !confsenha){
-    alert("Campos de preenchimento obrigatório. Favor preencher.")
-
-}
-else
-alert ("Campo preenchido com sucesso");
-}

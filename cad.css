@@ -18,7 +18,7 @@ h1 {
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
-    background: linear-gradient(50deg, #f3deff,  #db98ff,  #efd2ff);
+    background: linear-gradient(50deg, #673e80,  #ba6ae6,  #47006d);
     text-align: center;
     padding: 20px;
     font-weight: bolder;
@@ -27,7 +27,7 @@ h1 {
 
 button {
     color: rgb(255, 255, 255);
-    background-color: grey;
+    background-color: rgb(192, 192, 192);
 }
 
 input{
@@ -45,7 +45,7 @@ button{
 }
 
 body{
-    background: linear-gradient(100deg, #cecece, #878787);
+    background: linear-gradient(100deg, #cecece, #ffffff);
 }
 
 

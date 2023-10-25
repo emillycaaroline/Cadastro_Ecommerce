@@ -42,3 +42,6 @@
 ## ✒️ Autor
 
 [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127847857?v=4" width=115><br><sub>Emilly Caroline </sub>](https://github.com/emillycaaroline)<br><br><br>
+
+`Ajuda:`
+[<img loading="lazy" src="https://avatars.githubusercontent.com/u/86802310?v=4" width=115><br><sub>Leonardo Rocha </sub>](https://github.com/LeonardoRochaMarista)
