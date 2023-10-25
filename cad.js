@@ -1,31 +1,8 @@
-'use restrict'; //Modo restrito
-
-//Limpar formulario
-const limparFormulario = () =>{
-    document.getElementById('rua').value = '';
-    document.getElementById('Cidade').value = '';
-    document.getElementById('Estado').value = '';
-    document.getElementById('bairro').value = '';
-
-}
-
-//VERIFICAR SE CEP É VALIDO
-const eNumero = (numero) => /^[0-9]+$/.test(numero);
-const cepValido = (cep) => cep.length == 8 && eNumero(cep);
-
-//PREENCHE CAMPOS DO FORMULARIO
-const preencherformulario = (endereco) =>{
-    document.getElementById('rua').value = endereco.logradouro;
-    document.getElementById('bairro').value = endereco.bairro;
-    document.getElementById('Cidade').value = endereco.localidade;
-    document.getElementById('Estado').value = endereco.uf;
-}
-
-/*Função para consumo de API ultilizando a função do tipo assincrona*/
+//consultar cep
 const pesquisarCep = async() =>{
     limparFormulario()
-    const url = `https://viacep.com.br/ws/${cep.value}/json/`;
-    if(cepValido(cep.value)){
+    const url = `https://viacep.com.br/ws/${CEP.value}/json/`;
+    if(cepValido(CEP.value)){
         const dados = await fetch(url);
         const addres = await dados.json();
 
@@ -39,5 +16,51 @@ const pesquisarCep = async() =>{
     }
 }
 
-//adiciona um evento DOM, no imput CEP
-document.getElementById('cep').addEventListener('focusout', pesquisarCep);
+document.getElementById('CEP').addEventListener('focusout', pesquisarCep);
+
+const limparFormulario = () =>{
+    document.getElementById('ENDERECO').value = '';
+    document.getElementById('CIDADE').value = '';
+    document.getElementById('ESTADO').value = '';
+    document.getElementById('BAIRRO').value = '';
+
+}
+
+//VERIFICAR CEP 
+const eNumero = (numero) => /^[0-9]+$/.test(numero);
+const cepValido = (CEP) => CEP.length == 8 && eNumero(CEP);
+
+//PREENCHE FORMULARIO
+const preencherformulario = (endereco) =>{
+    document.getElementById('ENDERECO').value = endereco.logradouro;
+    document.getElementById('BAIRRO').value = endereco.bairro;
+    document.getElementById('CIDADE').value = endereco.localidade;
+    document.getElementById('ESTADO').value = endereco.uf;
+}
+
+
+function Verificar(){
+
+    let nome = document.getElementById('NOME').value;
+    let cpf = document.getElementById('CPF').value;
+    let data = document.getElementById('NASCIMENTO').value;
+    let email = document.getElementById('EMAIL').value;
+    let senha = document.getElementById('SENHA').value;
+    let confsenha = document.getElementById('CONFSENHA').value;
+    let cep = document.getElementById('CEP');
+    let endereco = document.getElementById('ENDERECO').value;
+    let number = document.getElementById('NUMERO').value;
+    let complemento = document.getElementById('COMPLEMENTO');
+    let bairro = document.getElementById('BAIRRO').value;
+    let cidade = document.getElementById('CIDADE');
+    let estado = document.getElementById('ESTADO');
+
+
+   
+    if(!nome || !senha || !endereco || !cpf || !data || !telefone || number || !bairro || !cep || !complemento || !cidade || !estado || !email || !confsenha){
+    alert("Campos de preenchimento obrigatório. Favor preencher.")
+
+}
+else
+alert ("Campo preenchido com sucesso");
+}
