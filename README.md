@@ -50,7 +50,7 @@
 
 ## 👀 Site Funcionando
 
-![img](gif/site.ecommerce.mp4)
+![gif](gif/site.ecommerce.mp4)
 
 ## ✒️ Autor
 
