@@ -83,4 +83,17 @@ function Verificar(){
 
     }
 
+
+    function validarSenha() {
+        senha = document.getElementsByName('SENHA').value;
+        confsenha = document.getElementsByName('CONFSENHA').value;
+      
+        if (senha != confsenha) {
+          confsenha.setCustomValidity("Senhas diferentes!");
+          return false;
+        } else {
+          return true;
+        }
+      }
+
    
