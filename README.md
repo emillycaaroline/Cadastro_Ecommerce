@@ -1,7 +1,7 @@
-# cadastro_de_E-commerce
+# 🔍 cadastro_de_E-commerce
 
 ## 📋 descrição
--`O site "cadastro de E-commerce" é uma plataforma dedicada a cadastro de endereço feito em sala na aula de programação web I. Ele oferece um formulário de cadastro abrangente que permite aos visitantes adicionar seus dados. O site é projetado de forma responsiva, garantindo uma experiência em diferentes dispositivos.`
+- `O site "cadastro de E-commerce" é uma plataforma dedicada a cadastro de endereço feito em sala na aula de programação web I. Ele oferece um formulário de cadastro abrangente que permite aos visitantes adicionar seus dados. O site é projetado de forma responsiva, garantindo uma experiência em diferentes dispositivos.`
 
 ## 🔧 Funcionalidades
 
@@ -28,7 +28,7 @@
    - `github`  
    - `README`
    - `HTML5`
-   - `CSS`
+   - `CSS3`
    - `js`
    - [`Bootstrap 5`](https://getbootstrap.com/)
 

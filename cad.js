@@ -85,8 +85,8 @@ function Verificar(){
 
 
     function validarSenha() {
-        senha = document.getElementsByName('SENHA').value;
-        confsenha = document.getElementsByName('CONFSENHA').value;
+        senha = document.getElementById('SENHA').value;
+        confsenha = document.getElementById('CONFSENHA').value;
       
         if (senha != confsenha) {
           confsenha.setCustomValidity("Senhas diferentes!");
